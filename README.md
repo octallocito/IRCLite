@@ -1,6 +1,6 @@
 # IRCLite
 
-**IRCLite** is a lightweight IRC server written in Python.  
+**IRCLite** is a lightweight IRC server written in Python & C.  
 It focuses on simplicity, readability, and basic compliance with the IRC protocol (RFC 1459). Perfect for learning, experimenting, or building your own custom server.
 
 ## Features
@@ -8,7 +8,7 @@ It focuses on simplicity, readability, and basic compliance with the IRC protoco
 - Basic support for the IRC protocol (RFC 1459)
 - Multi-client handling via sockets
 - Channel support and private messaging
-- Written in pure Python — no external libraries required
+- Written in pure Python, C — no external libraries required
 - Easy to modify and extend
 
 ## Getting Started
@@ -16,6 +16,7 @@ It focuses on simplicity, readability, and basic compliance with the IRC protoco
 ### Requirements
 
 - Python 3.8 or later
+- C lang 
 
 ### Run
 
