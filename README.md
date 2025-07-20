@@ -22,4 +22,8 @@ It focuses on simplicity, readability, and basic compliance with the IRC protoco
 
 ```bash
 python3 irclite.py <port>
+gcc -o serv serv.c -lpthread
+gcc -o cli cli.c -lpthread
+./serv <port>
+./cli 127.0.0.1 <port>
 ```
